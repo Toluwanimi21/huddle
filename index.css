@@ -1,0 +1,92 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin:0;
+     padding:0;
+     width:100%;
+     font-family: 'poppins', 'open sans';
+     background-color:hsl(257, 40%, 49%);
+     background-image: url(./images/bg-desktop.svg);
+ }
+
+ header {
+     font-family: 'poppins';
+     margin: 10% 10% 5%;
+ }
+
+ header > img {
+     width:40%;
+     font-weight: 400;
+ }
+
+ main {
+     display:flex;
+     justify-content: center;
+ }
+
+ .content {
+     display: flex;
+     flex-direction: 80%;
+     width:80%;
+     margin: 1% 1%;
+ }
+
+ .content .section-image {
+    padding: 8% 5%;
+}
+
+.content .section-image img {
+    width: 100%;
+    height: auto;
+}
+
+.sect-text {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.sect-text h1 {
+    color: white;
+}
+
+.sect-text .para-text {
+    color: white;
+    line-height: 1.5;
+}
+
+.sect-text button {
+    background-color: white;
+    color:hsl(300, 69%, 71%) ;
+    width: 70%;
+    margin: 5% 0;
+    padding: 5% 0;
+    border: none;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.sect-text button:hover {
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 3.5rem 0;
+    gap: 1rem;
+}
+
+i {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: .5rem;
+    color:white;
+}
+
+ 
